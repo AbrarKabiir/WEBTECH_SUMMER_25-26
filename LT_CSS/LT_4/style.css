@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: rgb(46, 126, 196);
+    color: black;
+}
+
+.product {
+    display: inline-block;
+    width: 250px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+    padding: 15px;
+    margin: 15px;
+    text-align: center;
+}
+
+.product:hover {
+    outline: 3px solid red;
+    outline-offset: 4px;
+}
+
+.product img {
+    width: 180px;
+    height: 200px;
+}
+
+.product a {
+    text-decoration: none;
+    color: rgb(13, 86, 155);
+    font-weight: bold;
+}
